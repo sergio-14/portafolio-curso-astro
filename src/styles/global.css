@@ -4,3 +4,5 @@
     --font-dancy: 'Dancing Script', cursive;
     --font-title: "Anton", sans-serif;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));

@@ -8,9 +8,10 @@ import "../styles/global.css";
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		 
+
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>💼 Portafolio Personal</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,26 +19,11 @@ import "../styles/global.css";
 		<link href="https://fonts.googleapis.com/css2?family=Acme&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Anton&family=Bebas+Neue&family=Boldonse&family=Bungee&family=Cal+Sans&family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Lobster&family=Marck+Script&family=Oleo+Script:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Permanent+Marker&family=Playwrite+RO:wght@100..400&family=Protest+Strike&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Special+Gothic+Condensed+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
 		
 	</head>
-	<body class="bg-slate-950 text-white">
+	<body class="bg-neutral-100  dark:bg-slate-950 text-white">
 		<slot />
 	</body>
 </html>
-<!-- <script>
-  const themeToggle = document.getElementById('theme-toggle');
-  const root = document.documentElement;
 
-  if (localStorage.getItem('theme') === 'dark' ||
-      (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    root.classList.add('dark');
-  }
-
-  if (themeToggle) {
-    themeToggle.addEventListener('click', () => {
-      root.classList.toggle('dark');
-      localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
-    });
-  }
-</script> -->
 
 
 <style>
