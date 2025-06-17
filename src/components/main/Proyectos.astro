@@ -1,9 +1,14 @@
-<section class="md:px-45 min-h-screen">
+---
+import { Icon } from 'astro-icon/components'
+---
+<section id="Proyectos" class="md:px-45 min-h-screen relative  px-2">
+    <span class=" md:w-120 md:h-50 w-40 h-40  dark:bg-fuchsia-600 bg-neutral-500 md:bottom-2 bottom-2 right-14 opacity-20 blur-3xl absolute"></span>
+    
     <div class="flex  items-center top-0 text-center gap-2">
-        <h1 class="text-4xl font-title bg-gradient-to-r from-slate-950 dark:from-amber-950  to-amber-500 bg-clip-text text-transparent mb-4">Proyectos Realizados </h1>
-        <svg  xmlns="http://www.w3.org/2000/svg"  width="44"  height="44"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-school"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" /><path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" /></svg>
+        <h1 class="md:text-4xl text-xl font-title bg-gradient-to-r from-slate-950 dark:from-amber-950  to-amber-500 bg-clip-text text-transparent mb-4">Proyectos Realizados </h1>
+        <Icon name="vscode" class="md:size-16 size-10 mb-4" />
     </div>
-    <div class="grid grid-cols-3 gap-3 ">
+    <div class="grid md:grid-cols-3 grid-cols-1 gap-3 ">
         <div class=" hover:scale-110 z-20  p-4 col-span-1 rounded-lg h-100 bg-[url('/public/assets/img/set-1.jfif')] bg-cover bg-center  ">
             <div class=" ">
                 <h3 class="text-2xl font-title bg-gradient-to-r from-slate-900 dark:from-amber-950  to-amber-400 bg-clip-text text-transparent "> Proyecto de Manejo de Sql con Backkups Automaticos</h3>
